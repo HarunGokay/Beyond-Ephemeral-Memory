@@ -1,0 +1,60 @@
+{
+  "worlds": {
+    "01_helixnova_biotech": {
+      "total_dialogue_turns": 2000,
+      "total_sessions": 153,
+      "routine_sessions_salience_indexed_at_zero_llm_cost": 140,
+      "milestone_sessions_llm_extracted": 12,
+      "active_trees": 8,
+      "total_branches": 19,
+      "total_semantic_records": 26,
+      "total_events": 14,
+      "total_relationships": 9,
+      "total_decisions": 5,
+      "active_assumption_alerts": 1,
+      "total_predictions": 7,
+      "total_interventions": 1,
+      "total_temporal_patterns": 5,
+      "post_erasure_canary_hits": 0,
+      "conservative_retail_spend_usd": 0.06669
+    },
+    "02_vektorflow_saas": {
+      "total_dialogue_turns": 2000,
+      "total_sessions": 150,
+      "routine_sessions_salience_indexed_at_zero_llm_cost": 140,
+      "milestone_sessions_llm_extracted": 9,
+      "active_trees": 8,
+      "total_branches": 15,
+      "total_semantic_records": 21,
+      "total_events": 12,
+      "total_relationships": 5,
+      "total_decisions": 4,
+      "active_assumption_alerts": 0,
+      "total_predictions": 0,
+      "total_interventions": 0,
+      "total_temporal_patterns": 4,
+      "post_erasure_canary_hits": 0,
+      "conservative_retail_spend_usd": 0.05186
+    },
+    "03_executive_ops": {
+      "total_dialogue_turns": 2000,
+      "total_sessions": 146,
+      "routine_sessions_salience_indexed_at_zero_llm_cost": 140,
+      "milestone_sessions_llm_extracted": 5,
+      "active_trees": 6,
+      "total_branches": 6,
+      "total_semantic_records": 7,
+      "total_events": 7,
+      "total_relationships": 0,
+      "total_decisions": 1,
+      "active_assumption_alerts": 0,
+      "total_predictions": 0,
+      "total_interventions": 0,
+      "total_temporal_patterns": 1,
+      "post_erasure_canary_hits": 0,
+      "conservative_retail_spend_usd": 0.02691
+    }
+  },
+  "total_conservative_retail_usd": 0.14547,
+  "total_conservative_retail_eur_est": 0.13383
+}

@@ -1,0 +1,41 @@
+{
+  "world_model": "03_executive_ops",
+  "deletion_requested_at": "2026-08-29T15:00:00Z",
+  "erased_source_id": "7cf17012-6a8e-4e21-bf30-7533492f41da",
+  "canary_token": "CANARY-MED-308-HOLTER",
+  "erase_service_receipt": {
+    "deleted": true,
+    "source_id": "7cf17012-6a8e-4e21-bf30-7533492f41da",
+    "cascaded_counts": {
+      "node_embeddings": 4,
+      "event_ledger": 2,
+      "semantic_records": 2,
+      "sources": 1,
+      "context_trees": 1,
+      "context_branches": 1,
+      "processing_jobs": 0
+    },
+    "raw_storage_files_deleted": 2,
+    "receipt": {
+      "timestamp": "2026-11-24T20:14:58.929330+00:00",
+      "user_id": "749fe71e-36d2-4d34-84fe-021c8ec29d12",
+      "scope": "source_deletion",
+      "target_type": "source",
+      "target_id": "7cf17012-6a8e-4e21-bf30-7533492f41da",
+      "deleted_counts": {
+        "node_embeddings": 4,
+        "event_ledger": 2,
+        "semantic_records": 2,
+        "sources": 1,
+        "context_trees": 1,
+        "context_branches": 1,
+        "processing_jobs": 0
+      },
+      "raw_storage_files_deleted": 2,
+      "retained": {},
+      "backup_retention_notice": "Database and storage backups retain point-in-time snapshots until scheduled rotation (30 days)."
+    }
+  },
+  "post_erasure_postgres_canary_hits": 0,
+  "surviving_active_branches_count": 5
+}

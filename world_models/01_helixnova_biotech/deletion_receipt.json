@@ -1,0 +1,43 @@
+{
+  "world_model": "01_helixnova_biotech",
+  "deletion_requested_at": "2026-08-18T16:00:00Z",
+  "erased_source_id": "055ac3a2-70b1-4323-9a39-8bb474835335",
+  "canary_token": "CANARY-NDA-9941-KESTREL",
+  "erase_service_receipt": {
+    "deleted": true,
+    "source_id": "055ac3a2-70b1-4323-9a39-8bb474835335",
+    "cascaded_counts": {
+      "node_embeddings": 3,
+      "event_ledger": 1,
+      "semantic_records": 1,
+      "sources": 1,
+      "entity_relationships": 1,
+      "context_trees": 1,
+      "context_branches": 1,
+      "processing_jobs": 0
+    },
+    "raw_storage_files_deleted": 2,
+    "receipt": {
+      "timestamp": "2026-11-24T20:13:49.909838+00:00",
+      "user_id": "26c6e480-1e5d-4feb-99a2-0e55048d8505",
+      "scope": "source_deletion",
+      "target_type": "source",
+      "target_id": "055ac3a2-70b1-4323-9a39-8bb474835335",
+      "deleted_counts": {
+        "node_embeddings": 3,
+        "event_ledger": 1,
+        "semantic_records": 1,
+        "sources": 1,
+        "entity_relationships": 1,
+        "context_trees": 1,
+        "context_branches": 1,
+        "processing_jobs": 0
+      },
+      "raw_storage_files_deleted": 2,
+      "retained": {},
+      "backup_retention_notice": "Database and storage backups retain point-in-time snapshots until scheduled rotation (30 days)."
+    }
+  },
+  "post_erasure_postgres_canary_hits": 0,
+  "surviving_active_branches_count": 10
+}

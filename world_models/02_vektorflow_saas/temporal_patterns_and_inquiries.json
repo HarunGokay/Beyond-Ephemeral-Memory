@@ -1,0 +1,61 @@
+{
+  "world_model_id": "02_vektorflow_saas",
+  "temporal_patterns": [
+    {
+      "pattern_id": "c076b4f1-6cfe-46bb-8e89-c5848de69c09",
+      "pattern_type": "prediction_errors",
+      "status": "supported",
+      "causal_status": "temporal_association",
+      "confidence": 0.9,
+      "supporting_observations_count": 1,
+      "description": "Exit-interview audit directly contradicted the previous assumption that SAML SSO issues were driving mid-market customer churn, revealing webhook retry tail latency as the actual root cause."
+    },
+    {
+      "pattern_id": "dd2a6275-e638-49d5-a487-dfaa671ad061",
+      "pattern_type": "cross_domain_propagation",
+      "status": "supported",
+      "causal_status": "temporal_association",
+      "confidence": 0.85,
+      "supporting_observations_count": 1,
+      "description": "External vendor infrastructure changes (Stripe deprecating sub-30-minute instant payouts) propagated directly into operational constraints for downstream financial product tiers (Q3 Guaranteed Same-Day Creator Payout Tier)."
+    },
+    {
+      "pattern_id": "47c73cc7-9532-4e2d-875e-a869e878d358",
+      "pattern_type": "changing_priorities",
+      "status": "supported",
+      "causal_status": "unknown",
+      "confidence": 0.9,
+      "supporting_observations_count": 2,
+      "description": "Project Mercury experienced a strategic reversal, moving from complete cancellation to focus on SOC-2 Type II, and subsequently being restarted for a flagship retail pilot."
+    },
+    {
+      "pattern_id": "836c22ad-38ac-43ed-b905-2f753b6afe78",
+      "pattern_type": "repeated_decision_patterns",
+      "status": "emerging",
+      "causal_status": "temporal_association",
+      "confidence": 0.8,
+      "supporting_observations_count": 2,
+      "description": "Financial and pricing models underwent structural shifts (moving from pure usage pricing to hybrid pricing, and cutting paid acquisition spend) to manage cost predictability and capital efficiency."
+    }
+  ],
+  "generated_inquiries": [
+    {
+      "inquiry_id": "f1b690a7-87da-4163-8f42-c20c94380cef",
+      "gap_type": "contradiction",
+      "intent": "challenge",
+      "priority": 1,
+      "question_text": "Project Mercury was restarted on August 6, 2026 for a flagship retail pilot, yet engineering was previously 100% dedicated to SOC-2 Type II following Project Mercury's cancellation. How is engineering capacity currently split between SOC-2 Type II compliance and the restarted Project Mercury?",
+      "rationale": "There is a direct tension between maintaining a 100% engineering focus on SOC-2 Type II and restarting Project Mercury, as engineering resources are finite.",
+      "suggested_impact": "Clarifying resource allocation will update the timeline feasibility for both SOC-2 Type II completion and Project Mercury delivery."
+    },
+    {
+      "inquiry_id": "c1f6c6c2-5694-465e-b399-37b5d85c9fed",
+      "gap_type": "missing_causal_context",
+      "intent": "deepening",
+      "priority": 1,
+      "question_text": "Given that Stripe deprecated the sub-30-minute Instant Payouts SLA to T+2 business days for EU accounts, what operational mitigation or alternative settlement mechanism is being used to maintain the Q3 Guaranteed Same-Day Creator Payout Tier without requiring manual treasury prefunding?",
+      "rationale": "The Q3 Payout Tier explicitly depends on the automated split-settlement engine running without manual prefunding, but the underlying vendor dependency (Stripe SLA) has been lengthened significantly.",
+      "suggested_impact": "Reveals whether the Q3 Payout Tier is at risk, requires scope reduction, or relies on an unstated workaround."
+    }
+  ]
+}

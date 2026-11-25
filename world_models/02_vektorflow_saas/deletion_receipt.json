@@ -1,0 +1,41 @@
+{
+  "world_model": "02_vektorflow_saas",
+  "deletion_requested_at": "2026-08-22T17:00:00Z",
+  "erased_source_id": "a4b79684-e1a1-4e85-88fd-7719e663c970",
+  "canary_token": "CANARY-ACMEFIN-INC-772",
+  "erase_service_receipt": {
+    "deleted": true,
+    "source_id": "a4b79684-e1a1-4e85-88fd-7719e663c970",
+    "cascaded_counts": {
+      "node_embeddings": 3,
+      "event_ledger": 1,
+      "semantic_records": 2,
+      "sources": 1,
+      "context_trees": 1,
+      "context_branches": 1,
+      "processing_jobs": 0
+    },
+    "raw_storage_files_deleted": 2,
+    "receipt": {
+      "timestamp": "2026-11-24T20:14:31.951452+00:00",
+      "user_id": "37c97ab9-efb4-4059-8d2d-eeceb0cfc86b",
+      "scope": "source_deletion",
+      "target_type": "source",
+      "target_id": "a4b79684-e1a1-4e85-88fd-7719e663c970",
+      "deleted_counts": {
+        "node_embeddings": 3,
+        "event_ledger": 1,
+        "semantic_records": 2,
+        "sources": 1,
+        "context_trees": 1,
+        "context_branches": 1,
+        "processing_jobs": 0
+      },
+      "raw_storage_files_deleted": 2,
+      "retained": {},
+      "backup_retention_notice": "Database and storage backups retain point-in-time snapshots until scheduled rotation (30 days)."
+    }
+  },
+  "post_erasure_postgres_canary_hits": 0,
+  "surviving_active_branches_count": 11
+}

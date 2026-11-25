@@ -1,0 +1,61 @@
+{
+  "world_model_id": "01_helixnova_biotech",
+  "temporal_patterns": [
+    {
+      "pattern_id": "d895de10-5c82-48f6-89ef-3f7b4638de59",
+      "pattern_type": "prediction_errors",
+      "status": "supported",
+      "causal_status": "temporal_association",
+      "confidence": 0.88,
+      "supporting_observations_count": 6,
+      "description": "Empirical observation: Across 6 recorded project milestones, actual delivery had a median delay of 11 days (n=6). Individual schedule adjustments may reflect scope modifications."
+    },
+    {
+      "pattern_id": "e99bdd9e-132b-4f61-91a0-2f8d6be8cee3",
+      "pattern_type": "repeated_bottlenecks",
+      "status": "supported",
+      "causal_status": "temporal_association",
+      "confidence": 0.86,
+      "supporting_observations_count": 4,
+      "description": "Nightly assay ETL pipeline fails 4-5 times/week from unvalidated plate CSV schemas."
+    },
+    {
+      "pattern_id": "a8aecc13-d75a-4fde-bcfc-25405f3910fe",
+      "pattern_type": "changing_priorities",
+      "status": "supported",
+      "causal_status": "temporal_association",
+      "confidence": 0.9,
+      "supporting_observations_count": 1,
+      "description": "HelixNova Biotech shifted its assay analytics data warehouse selection three times (Snowflake Enterprise to Self-Hosted ClickHouse to PostgreSQL 16 + Parquet Lakehouse) within six months due to evolving cost and compliance constraints."
+    },
+    {
+      "pattern_id": "572af228-c530-45a6-9f1b-cbf90014e7de",
+      "pattern_type": "recurring_sequences",
+      "status": "supported",
+      "causal_status": "temporal_association",
+      "confidence": 0.95,
+      "supporting_observations_count": 1,
+      "description": "Project Proteus underwent a lifecycle of initial launch, project cancellation due to infrastructure preemption, and subsequent lightweight restart using alternative GPU resources."
+    },
+    {
+      "pattern_id": "8c6048db-03a4-4982-9188-8ec0e8e100d1",
+      "pattern_type": "prediction_errors",
+      "status": "supported",
+      "causal_status": "temporal_association",
+      "confidence": 0.95,
+      "supporting_observations_count": 1,
+      "description": "Initial lab quality control reports indicating zero contamination on Reagent Batch HX-409 were directly contradicted by subsequent audit findings revealing 3.8% Tris-buffer cross-contamination."
+    }
+  ],
+  "generated_inquiries": [
+    {
+      "inquiry_id": "77e0a171-9b3c-4ad8-b835-9131fbaf2495",
+      "gap_type": "contradiction",
+      "intent": "challenge",
+      "priority": 1,
+      "question_text": "The board reduced the quarterly cloud GPU compute budget to $240,000, yet the In-House 14B Assay Foundation Model Training explicitly requires at least $400,000 per quarter. How is this training initiative currently being funded given the budget reduction?",
+      "rationale": "There is a direct clash between the board-mandated budget reduction (down to $240,000) and the stated dependency of the in-house 14B assay training (requires $400,000). Resolving this is critical to determine goal feasibility.",
+      "suggested_impact": "Clarifying this will either invalidate the in-house training commitment, identify alternative funding sources, or trigger a scope reduction."
+    }
+  ]
+}

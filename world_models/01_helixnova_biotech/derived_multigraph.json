@@ -1,0 +1,724 @@
+{
+  "world_model_id": "01_helixnova_biotech",
+  "title": "HelixNova Biotech \u2014 9-Month R&D & Platform Operations",
+  "stats": {
+    "total_dialogue_turns": 2000,
+    "total_sessions": 153,
+    "routine_sessions_salience_indexed_at_zero_llm_cost": 140,
+    "milestone_sessions_llm_extracted": 12,
+    "active_trees": 8,
+    "total_branches": 19,
+    "total_semantic_records": 26,
+    "total_events": 14,
+    "total_relationships": 9,
+    "total_decisions": 5,
+    "active_assumption_alerts": 1,
+    "total_predictions": 7,
+    "total_interventions": 1,
+    "total_temporal_patterns": 5,
+    "post_erasure_canary_hits": 0,
+    "conservative_retail_spend_usd": 0.06669
+  },
+  "forest": [
+    {
+      "tree_id": "2d4b113a-f27f-423f-8f4a-1c7744f01bf6",
+      "category": "relationships_roles",
+      "title": "HelixNova Biotech Organization and Budget",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "2011b6dc-71b3-430b-87f5-f9b1faf90351",
+          "label": "Principal Scientist Protein Engineering",
+          "status": "archived",
+          "current_claim": "Dr. Elena Vance was promoted from Principal Scientist to VP of Computational Biology.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "502c102e-f685-4866-b561-9274bdb04c52",
+              "supersedes_record_id": null,
+              "valid_from": "2026-01-12T10:00:00+00:00",
+              "status": "active",
+              "state_version": 2,
+              "claim_text": "Dr. Elena Vance is the Principal Scientist leading protein engineering at HelixNova Biotech."
+            },
+            {
+              "record_id": "71e735fa-3a66-48e3-ba82-c57f16331904",
+              "supersedes_record_id": "502c102e-f685-4866-b561-9274bdb04c52",
+              "valid_from": "2026-05-14T10:30:00+00:00",
+              "status": "superseded",
+              "state_version": 77,
+              "claim_text": "Dr. Elena Vance was promoted from Principal Scientist to VP of Computational Biology."
+            }
+          ]
+        },
+        {
+          "branch_id": "aa531eaf-5b7c-4b18-bda7-e583d6b7c4fa",
+          "label": "VP of Computational Biology",
+          "status": "active",
+          "current_claim": "Dr. Elena Vance is the VP of Computational Biology at HelixNova Biotech.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "3ff4ba78-f02a-41d8-a3ee-d5e773f6f77a",
+              "supersedes_record_id": null,
+              "valid_from": "2026-05-14T10:30:00+00:00",
+              "status": "active",
+              "state_version": 77,
+              "claim_text": "Dr. Elena Vance is the VP of Computational Biology at HelixNova Biotech."
+            }
+          ]
+        },
+        {
+          "branch_id": "50451721-9efa-4ae1-a2b6-2c7bac783c7e",
+          "label": "Backend Lead",
+          "status": "archived",
+          "current_claim": "Marcus Chen transitioned from Backend Lead to Clinical Data Security Lead.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "c6256807-d75f-493a-b4a3-7f81aceb1569",
+              "supersedes_record_id": null,
+              "valid_from": "2026-01-12T10:00:00+00:00",
+              "status": "active",
+              "state_version": 2,
+              "claim_text": "Marcus Chen is the Backend Lead at HelixNova Biotech."
+            },
+            {
+              "record_id": "a47a5995-4149-4a5b-ab96-c7a4f73885df",
+              "supersedes_record_id": "c6256807-d75f-493a-b4a3-7f81aceb1569",
+              "valid_from": "2026-05-14T10:30:00+00:00",
+              "status": "superseded",
+              "state_version": 77,
+              "claim_text": "Marcus Chen transitioned from Backend Lead to Clinical Data Security Lead."
+            }
+          ]
+        },
+        {
+          "branch_id": "665bb852-f2bc-4bb4-9e0c-5e6a27812059",
+          "label": "Clinical Data Security Lead",
+          "status": "active",
+          "current_claim": "Marcus Chen is the Clinical Data Security Lead at HelixNova Biotech.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "43e22a9f-b108-4585-91b1-ff01ffe0e9a2",
+              "supersedes_record_id": null,
+              "valid_from": "2026-05-14T10:30:00+00:00",
+              "status": "active",
+              "state_version": 77,
+              "claim_text": "Marcus Chen is the Clinical Data Security Lead at HelixNova Biotech."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "7bf05e75-150d-417e-a8f9-4a4853dd2a0d",
+      "category": "resources_environment",
+      "title": "HelixNova Biotech Organization and Budget",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "c568d104-d7b9-4ce6-a490-8bb680361c68",
+          "label": "Quarterly Cloud GPU Compute Budget",
+          "status": "active",
+          "current_claim": "The approved quarterly cloud GPU compute budget for HelixNova Biotech was reduced by the board from $420,000 down to $240,000 per quarter effective immediately.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "b1be7144-36fe-4724-91f7-9fe0be2fd8b1",
+              "supersedes_record_id": null,
+              "valid_from": "2026-01-12T10:00:00+00:00",
+              "status": "active",
+              "state_version": 2,
+              "claim_text": "The approved quarterly cloud GPU compute budget for HelixNova Biotech is $420,000 per quarter."
+            },
+            {
+              "record_id": "321ab0b9-7989-44ee-8cf4-5fe04eeb5808",
+              "supersedes_record_id": "b1be7144-36fe-4724-91f7-9fe0be2fd8b1",
+              "valid_from": "2026-06-15T11:15:00+00:00",
+              "status": "active",
+              "state_version": 97,
+              "claim_text": "The approved quarterly cloud GPU compute budget for HelixNova Biotech was reduced by the board from $420,000 down to $240,000 per quarter effective immediately."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "da1e5892-5133-43e3-9563-2f0350e09590",
+      "category": "active_projects_commitments",
+      "title": "Project Proteus Pipeline and Infrastructure",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "db21e69a-d233-4b68-8b8d-ee52fe3d414c",
+          "label": "Project Proteus",
+          "status": "archived",
+          "current_claim": "Project Proteus was cancelled on 2026-04-19 due to high spot H100 cluster preemption rates.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "9213c9bb-dd79-4a58-8655-0960b382e2db",
+              "supersedes_record_id": null,
+              "valid_from": "2026-01-20T14:00:00+00:00",
+              "status": "active",
+              "state_version": 8,
+              "claim_text": "Project Proteus was officially launched to build a generative antibody folding pipeline."
+            },
+            {
+              "record_id": "4de02c3f-8f0b-4f4f-a89a-92c4e68aa10e",
+              "supersedes_record_id": "9213c9bb-dd79-4a58-8655-0960b382e2db",
+              "valid_from": "2026-04-19T13:00:00+00:00",
+              "status": "archived",
+              "state_version": 62,
+              "claim_text": "Project Proteus was cancelled on 2026-04-19 due to high spot H100 cluster preemption rates."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "736e9253-b7e8-4f39-9768-060043c33418",
+      "category": "resources_environment",
+      "title": "Project Proteus Pipeline and Infrastructure",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "874ad586-0a3c-4281-ae9a-60ef7cc878e2",
+          "label": "Snowflake Enterprise Warehouse",
+          "status": "archived",
+          "current_claim": "Snowflake Enterprise was abandoned as the primary assay analytics data warehouse due to high per-query credit burn.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "016a8304-9ef7-4bf7-ad5f-1c828f0d54ee",
+              "supersedes_record_id": null,
+              "valid_from": "2026-01-20T14:00:00+00:00",
+              "status": "active",
+              "state_version": 8,
+              "claim_text": "Snowflake Enterprise was selected as the primary assay analytics data warehouse."
+            },
+            {
+              "record_id": "095bbd2d-177d-43d5-a06d-fa4dd7e8d0ce",
+              "supersedes_record_id": "016a8304-9ef7-4bf7-ad5f-1c828f0d54ee",
+              "valid_from": "2026-03-04T15:30:00+00:00",
+              "status": "superseded",
+              "state_version": 34,
+              "claim_text": "Snowflake Enterprise was abandoned as the primary assay analytics data warehouse due to high per-query credit burn."
+            }
+          ]
+        },
+        {
+          "branch_id": "c7c337de-737f-4223-b903-f12ea470769e",
+          "label": "Staging Cluster Environment",
+          "status": "archived",
+          "current_claim": "The staging cluster runs in staging-us-west-1.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "4270954b-9b0c-4160-8504-e6abc00163d9",
+              "supersedes_record_id": null,
+              "valid_from": "2026-01-20T14:00:00+00:00",
+              "status": "active",
+              "state_version": 8,
+              "claim_text": "The staging cluster runs in staging-us-west-1."
+            },
+            {
+              "record_id": "29214028-18e6-458c-bbe7-45939c93ce1f",
+              "supersedes_record_id": "4270954b-9b0c-4160-8504-e6abc00163d9",
+              "valid_from": "2026-05-14T10:30:00+00:00",
+              "status": "superseded",
+              "state_version": 77,
+              "claim_text": "The staging cluster runs in staging-us-west-1."
+            }
+          ]
+        },
+        {
+          "branch_id": "ce872dc5-5110-430b-bd66-7516317b8356",
+          "label": "Staging Cluster Environment",
+          "status": "active",
+          "current_claim": "All staging runs on staging-eu-central-2 following the permanent decommissioning of legacy cluster staging-us-west-1.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "d163f83e-faa0-47ed-b9b7-127324949417",
+              "supersedes_record_id": null,
+              "valid_from": "2026-05-14T10:30:00+00:00",
+              "status": "active",
+              "state_version": 77,
+              "claim_text": "All staging runs on staging-eu-central-2 following the permanent decommissioning of legacy cluster staging-us-west-1."
+            }
+          ]
+        },
+        {
+          "branch_id": "7167db44-6c05-4f55-a6b3-6950211fcc88",
+          "label": "Self-Hosted ClickHouse Warehouse",
+          "status": "archived",
+          "current_claim": "Self-Hosted ClickHouse was reversed as the primary assay analytics data warehouse following a GxP audit trail review.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "20aa3c42-5f69-4b38-8328-f719ab1c3ab2",
+              "supersedes_record_id": null,
+              "valid_from": "2026-03-04T15:30:00+00:00",
+              "status": "active",
+              "state_version": 34,
+              "claim_text": "Self-Hosted ClickHouse was selected as the primary assay analytics data warehouse following a migration off Snowflake Enterprise."
+            },
+            {
+              "record_id": "6532c5bc-424f-472d-b77d-5191ae1a5112",
+              "supersedes_record_id": "20aa3c42-5f69-4b38-8328-f719ab1c3ab2",
+              "valid_from": "2026-07-08T14:10:00+00:00",
+              "status": "superseded",
+              "state_version": 111,
+              "claim_text": "The primary assay analytics data warehouse was standardized on PostgreSQL 16 + Parquet Lakehouse following a GxP audit trail review and the reversal of the Self-Hosted ClickHouse decision. Self-Hosted ClickHouse was reversed as the primary assay analytics data warehouse following a GxP audit trail review."
+            }
+          ]
+        },
+        {
+          "branch_id": "f286ea0b-1eb7-4b41-b335-674db76389e4",
+          "label": "Project Proteus Spot H100 Cluster Preemption",
+          "status": "active",
+          "current_claim": "Project Proteus was officially restarted as Project Proteus-Lite focused strictly on CDR-H3 loop optimization using 16 reserved H200 GPUs secured via academic co-op credits.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "382ea710-80a9-4a3c-90a6-933c9d2f2c48",
+              "supersedes_record_id": null,
+              "valid_from": "2026-04-19T13:00:00+00:00",
+              "status": "active",
+              "state_version": 62,
+              "claim_text": "Project Proteus was cancelled because spot H100 cluster preemption rates exceeded 42% and stalled training runs."
+            },
+            {
+              "record_id": "bd89c6fe-903e-4da1-809b-4177694806dd",
+              "supersedes_record_id": "382ea710-80a9-4a3c-90a6-933c9d2f2c48",
+              "valid_from": "2026-07-24T10:00:00+00:00",
+              "status": "active",
+              "state_version": 121,
+              "claim_text": "Project Proteus was officially restarted as Project Proteus-Lite focused strictly on CDR-H3 loop optimization using 16 reserved H200 GPUs secured via academic co-op credits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "1c491940-759c-419d-82a2-59a199124787",
+      "category": "assumptions_mental_models",
+      "title": "Operating Assumptions",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "df74401e-caaa-4d51-8ff1-ca0bd26f3084",
+          "label": "Working Assumption",
+          "status": "archived",
+          "current_claim": "Snowflake Enterprise will scale adequately for assay analytics data workloads in Project Proteus.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "2db61494-a60a-49d0-b66e-095698ff3354",
+              "supersedes_record_id": null,
+              "valid_from": "2026-03-04T15:30:00+00:00",
+              "status": "contradicted",
+              "state_version": 34,
+              "claim_text": "Snowflake Enterprise will scale adequately for assay analytics data workloads in Project Proteus."
+            }
+          ]
+        },
+        {
+          "branch_id": "dd09ff59-6b1d-4420-bfd9-041ab77a03a3",
+          "label": "Working Assumption",
+          "status": "archived",
+          "current_claim": "The working assumption that the quarterly cloud GPU compute budget remains at least $400,000 per quarter is invalidated by the board's budget reduction to $240,000 per quarter.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "027b305f-a255-4b09-ab13-f6c447ef0bab",
+              "supersedes_record_id": null,
+              "valid_from": "2026-06-15T11:15:00+00:00",
+              "status": "superseded",
+              "state_version": 97,
+              "claim_text": "The working assumption that the quarterly cloud GPU compute budget remains at least $400,000 per quarter is invalidated by the board's budget reduction to $240,000 per quarter."
+            }
+          ]
+        },
+        {
+          "branch_id": "a6c48f82-1c33-4b7d-8b80-4aad8a7d7bd5",
+          "label": "Working Assumption",
+          "status": "active",
+          "current_claim": "The 16 reserved H200 GPUs secured via academic co-op credits are sufficient for CDR-H3 loop optimization.",
+          "version_count": 0,
+          "supersession_lineage": []
+        },
+        {
+          "branch_id": "39116b62-3876-4fac-b67f-2620371125e7",
+          "label": "Working Assumption",
+          "status": "active",
+          "current_claim": "PostgreSQL 16 + Parquet Lakehouse meets GxP audit trail review requirements.",
+          "version_count": 0,
+          "supersession_lineage": []
+        }
+      ]
+    },
+    {
+      "tree_id": "a21fadd3-52f3-4dc4-9546-b16aa73fd145",
+      "category": "decisions_rationale",
+      "title": "In-House 14B Assay Foundation Model Training",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "0e4ff815-7d3e-4a36-8546-82c48748026a",
+          "label": "In-House 14B Assay Foundation Model Training",
+          "status": "active",
+          "current_claim": "The team decided to commit to In-House 14B Assay Foundation Model Training rather than licensing an external API.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "06e7836e-dae9-4716-84b3-b87c98063c5b",
+              "supersedes_record_id": null,
+              "valid_from": "2026-02-05T11:00:00+00:00",
+              "status": "active",
+              "state_version": 17,
+              "claim_text": "The team decided to commit to In-House 14B Assay Foundation Model Training rather than licensing an external API."
+            }
+          ]
+        },
+        {
+          "branch_id": "8e8830c9-4e4f-4cbc-93a0-0312faecc8e4",
+          "label": "Project Proteus-Lite Restart and Scope",
+          "status": "active",
+          "current_claim": "Project Proteus Restart as Project Proteus-Lite: Restart Project Proteus as Project Proteus-Lite focusing strictly on CDR-H3 loop optimization using 16 reserved H200 GPUs via academic co-op credits.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "c2c418f1-a179-4f3f-a8fb-cf769348fe25",
+              "supersedes_record_id": null,
+              "valid_from": "2026-07-24T10:00:00+00:00",
+              "status": "active",
+              "state_version": 121,
+              "claim_text": "Project Proteus Restart as Project Proteus-Lite: Restart Project Proteus as Project Proteus-Lite focusing strictly on CDR-H3 loop optimization using 16 reserved H200 GPUs via academic co-op credits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "631ac036-fdee-42da-9978-0b170d3c31a3",
+      "category": "assumptions_mental_models",
+      "title": "In-House 14B Assay Foundation Model Training",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "527f4180-6003-444f-9387-55f0f5c7f52c",
+          "label": "Quarterly Cloud GPU Compute Budget Assumption",
+          "status": "active",
+          "current_claim": "The decision to commit to In-House 14B Assay Foundation Model Training explicitly depends on the operating assumption that the quarterly cloud GPU compute budget remains at least $400,000 per quarter.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "f32f9295-7de5-4921-83b9-c11bdda61745",
+              "supersedes_record_id": null,
+              "valid_from": "2026-02-05T11:00:00+00:00",
+              "status": "active",
+              "state_version": 17,
+              "claim_text": "The decision to commit to In-House 14B Assay Foundation Model Training explicitly depends on the operating assumption that the quarterly cloud GPU compute budget remains at least $400,000 per quarter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "976ff849-b330-48bc-9f48-32e1d5d41f42",
+      "category": "progress_milestones",
+      "title": "Reagent Batch HX-409 QC and Screening",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "48c91e6a-369e-47b9-af60-f195c834d834",
+          "label": "Reagent Batch HX-409 Optical QC",
+          "status": "archived",
+          "current_claim": "Reagent Batch HX-409 actually had 3.8% Tris-buffer cross-contamination following an LC-MS audit and has been quarantined, superseding the earlier 0.0% report.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "8e017dff-1992-4379-8187-1dd54c98d7c5",
+              "supersedes_record_id": null,
+              "valid_from": "2026-03-18T09:45:00+00:00",
+              "status": "active",
+              "state_version": 42,
+              "claim_text": "Reagent Batch HX-409 passed initial optical QC with 0.0% buffer contamination and was cleared for screening."
+            },
+            {
+              "record_id": "c7ca628f-59c0-43fc-a916-4a7a2191e919",
+              "supersedes_record_id": "8e017dff-1992-4379-8187-1dd54c98d7c5",
+              "valid_from": "2026-04-02T16:20:00+00:00",
+              "status": "superseded",
+              "state_version": 52,
+              "claim_text": "Reagent Batch HX-409 actually had 3.8% Tris-buffer cross-contamination following an LC-MS audit and has been quarantined, superseding the earlier 0.0% report."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "4b5cbe9c-f11e-495f-a45a-3bf24ef3cc30",
+      "source_label": "Project Proteus",
+      "relationship_type": "relates_to",
+      "target_label": "Snowflake Enterprise Warehouse",
+      "description": "Project Proteus utilizes Snowflake Enterprise as its primary assay analytics data warehouse.",
+      "status": "active"
+    },
+    {
+      "id": "4a1ef85f-7a73-48e7-8790-1bd5b24bc46b",
+      "source_label": "Project Proteus",
+      "relationship_type": "relates_to",
+      "target_label": "Staging Cluster Environment",
+      "description": "Project Proteus staging cluster runs in staging-us-west-1.",
+      "status": "active"
+    },
+    {
+      "id": "a511cbf9-3d6d-46e9-ad40-a8d1a6de1897",
+      "source_label": "In-House 14B Assay Foundation Model Training",
+      "relationship_type": "depends_on",
+      "target_label": "Quarterly Cloud GPU Compute Budget",
+      "description": "In-House 14B Assay Foundation Model Training decision depends on the quarterly cloud GPU compute budget remaining at least $400,000 per quarter.",
+      "status": "active"
+    },
+    {
+      "id": "65c711bb-a59b-44de-89af-ce01f59f7622",
+      "source_label": "Snowflake Enterprise Warehouse",
+      "relationship_type": "supersedes",
+      "target_label": "Self-Hosted ClickHouse Warehouse",
+      "description": "Self-Hosted ClickHouse replaced Snowflake Enterprise Warehouse due to high per-query credit burn.",
+      "status": "active"
+    },
+    {
+      "id": "6139c66d-c020-43dc-913f-f8c40bd294aa",
+      "source_label": "Project Proteus",
+      "relationship_type": "blocks",
+      "target_label": "Spot H100 Cluster Preemption Rates",
+      "description": "Spot H100 cluster preemption rates exceeding 42% caused training runs to stall and led to the cancellation of Project Proteus.",
+      "status": "active"
+    },
+    {
+      "id": "35039c9f-ef4e-42d2-b7f9-f6b0d063b28b",
+      "source_label": "Staging Cluster Environment",
+      "relationship_type": "supersedes",
+      "target_label": "Staging Cluster Environment",
+      "description": "staging-eu-central-2 replaced staging-us-west-1 for staging runs.",
+      "status": "active"
+    },
+    {
+      "id": "8efa05fd-1d4a-410b-bb56-c639aa6bd958",
+      "source_label": "Quarterly Cloud GPU Compute Budget",
+      "relationship_type": "contradicts",
+      "target_label": "Working Assumption",
+      "description": "The reduced compute budget of $240,000 per quarter invalidates the working assumption that the budget remains at least $400,000 per quarter.",
+      "status": "active"
+    },
+    {
+      "id": "9efd6764-68de-43e2-a5be-35ca30ffea98",
+      "source_label": "Self-Hosted ClickHouse Warehouse",
+      "relationship_type": "supersedes",
+      "target_label": "PostgreSQL 16 + Parquet Lakehouse",
+      "description": "PostgreSQL 16 + Parquet Lakehouse replaces Self-Hosted ClickHouse as the primary assay analytics data warehouse.",
+      "status": "active"
+    },
+    {
+      "id": "139960da-07ac-4be7-86a9-e7c307d41ca1",
+      "source_label": "Project Proteus-Lite Restart and Scope",
+      "relationship_type": "supersedes",
+      "target_label": "Project Proteus Spot H100 Cluster Preemption",
+      "description": "Project Proteus-Lite restarts and supersedes the cancelled Project Proteus status.",
+      "status": "active"
+    }
+  ],
+  "decisions": [
+    {
+      "decision_id": "76dbc49a-74a9-426f-8ce6-819688c8ba4b",
+      "title": "Snowflake Enterprise Data Warehouse Selection",
+      "selected_option": "Snowflake Enterprise",
+      "status": "decided",
+      "linked_assumption_branch_ids": [
+        "df74401e-caaa-4d51-8ff1-ca0bd26f3084"
+      ]
+    },
+    {
+      "decision_id": "5dc9908f-6c53-4b16-81f7-cdbfe4be63da",
+      "title": "In-House 14B Assay Foundation Model Training",
+      "selected_option": "Commit to In-House 14B Assay Foundation Model Training",
+      "status": "decided",
+      "linked_assumption_branch_ids": [
+        "dd09ff59-6b1d-4420-bfd9-041ab77a03a3"
+      ]
+    },
+    {
+      "decision_id": "c5a35030-43bc-4c21-917b-0e664dcf7adb",
+      "title": "Assay Analytics Data Warehouse Migration to Self-Hosted ClickHouse",
+      "selected_option": "Migrated off Snowflake Enterprise and switched to Self-Hosted ClickHouse",
+      "status": "superseded",
+      "linked_assumption_branch_ids": []
+    },
+    {
+      "decision_id": "5a8eecd4-8269-4ff4-a262-0e963fdc5033",
+      "title": "PostgreSQL 16 + Parquet Lakehouse Warehouse Standardization",
+      "selected_option": "Standardize primary assay analytics data warehouse on PostgreSQL 16 + Parquet Lakehouse",
+      "status": "decided",
+      "linked_assumption_branch_ids": [
+        "39116b62-3876-4fac-b67f-2620371125e7"
+      ]
+    },
+    {
+      "decision_id": "b5bf1868-d547-44b4-b2e5-fa03a00eeea1",
+      "title": "Project Proteus Restart as Project Proteus-Lite",
+      "selected_option": "Restart Project Proteus as Project Proteus-Lite focusing strictly on CDR-H3 loop optimization using 16 reserved H200 GPUs via academic co-op credits.",
+      "status": "decided",
+      "linked_assumption_branch_ids": [
+        "a6c48f82-1c33-4b7d-8b80-4aad8a7d7bd5"
+      ]
+    }
+  ],
+  "assumption_alerts": [
+    {
+      "decision_id": "5dc9908f-6c53-4b16-81f7-cdbfe4be63da",
+      "decision_title": "In-House 14B Assay Foundation Model Training",
+      "assumption_id": "dd09ff59-6b1d-4420-bfd9-041ab77a03a3",
+      "assumption_claim": "The working assumption that the quarterly cloud GPU compute budget remains at least $400,000 per quarter is invalidated by the board's budget reduction to $240,000 per quarter.",
+      "alert_text": "Decision 'In-House 14B Assay Foundation Model Training' rested on assumption 'The working assumption that the quarterly cloud GPU compute budget remains at least $400,000 per quarter is invalidated by the board's budget reduction to $240,000 per quarter.', which has been archived. Does this decision still hold?"
+    }
+  ],
+  "predictions": [
+    {
+      "statement": "Assay Pipeline v2 Milestone M1 delivery target",
+      "metric_type": "deadline",
+      "evaluation_status": "optimistic",
+      "error_magnitude": 11.0,
+      "slippage_days": 0
+    },
+    {
+      "statement": "Assay Pipeline v2 Milestone M2 delivery target",
+      "metric_type": "deadline",
+      "evaluation_status": "optimistic",
+      "error_magnitude": 14.0,
+      "slippage_days": 0
+    },
+    {
+      "statement": "Assay Pipeline v2 Milestone M3 delivery target",
+      "metric_type": "deadline",
+      "evaluation_status": "optimistic",
+      "error_magnitude": 9.0,
+      "slippage_days": 0
+    },
+    {
+      "statement": "Assay Pipeline v2 Milestone M4 delivery target",
+      "metric_type": "deadline",
+      "evaluation_status": "optimistic",
+      "error_magnitude": 12.0,
+      "slippage_days": 0
+    },
+    {
+      "statement": "Assay Pipeline v2 Milestone M5 delivery target",
+      "metric_type": "deadline",
+      "evaluation_status": "optimistic",
+      "error_magnitude": 13.0,
+      "slippage_days": 0
+    },
+    {
+      "statement": "Assay Pipeline v2 Milestone M6 delivery target",
+      "metric_type": "deadline",
+      "evaluation_status": "optimistic",
+      "error_magnitude": 10.0,
+      "slippage_days": 0
+    },
+    {
+      "statement": "Automated Snakemake pre-commit schema gate failure reduction",
+      "metric_type": "metric",
+      "evaluation_status": "unresolved",
+      "error_magnitude": null,
+      "slippage_days": 0
+    }
+  ],
+  "interventions": [
+    {
+      "recommendation": "Enforce automated Snakemake + Pandera pre-commit plate schema gate",
+      "implementation_status": "implemented",
+      "efficacy_evaluation": "effective",
+      "actual_observed_outcome": "Weekly failures dropped from [4, 5, 4, 5] to [0, 1, 0, 0] (mean 0.25); verified via ABAB staging toggle."
+    }
+  ],
+  "event_ledger_sample": [
+    {
+      "event_type": "constraint_stated",
+      "occurred_at": "2026-01-12T10:00:00+00:00",
+      "description": "Established HelixNova Biotech organizational and financial baseline including key roles and the $420,000 quarterly cloud GPU compute budget."
+    },
+    {
+      "event_type": "milestone_completed",
+      "occurred_at": "2026-01-20T14:00:00+00:00",
+      "description": "Project Proteus officially launched to build the generative antibody folding pipeline."
+    },
+    {
+      "event_type": "decision_made",
+      "occurred_at": "2026-01-20T14:00:00+00:00",
+      "description": "Selected Snowflake Enterprise as the primary assay analytics data warehouse."
+    },
+    {
+      "event_type": "decision_made",
+      "occurred_at": "2026-02-05T11:00:00+00:00",
+      "description": "Committed to In-House 14B Assay Foundation Model Training rather than licensing an external API."
+    },
+    {
+      "event_type": "decision_made",
+      "occurred_at": "2026-03-04T15:30:00+00:00",
+      "description": "Migrated off Snowflake Enterprise and switched to Self-Hosted ClickHouse for assay analytics data warehouse due to high per-query credit burn."
+    },
+    {
+      "event_type": "milestone_completed",
+      "occurred_at": "2026-03-18T09:45:00+00:00",
+      "description": "Reagent Batch HX-409 passed initial optical QC with 0.0% buffer contamination and was cleared for screening."
+    },
+    {
+      "event_type": "milestone_completed",
+      "occurred_at": "2026-04-02T16:20:00+00:00",
+      "description": "Follow-up LC-MS mass-spectrometry audit on Reagent Batch HX-409 contradicted the earlier 0.0% report, revealing 3.8% Tris-buffer cross-contamination and resulting in quarantine."
+    },
+    {
+      "event_type": "cancellation",
+      "occurred_at": "2026-04-19T00:00:00+00:00",
+      "description": "Project Proteus was cancelled on 2026-04-19 due to spot H100 cluster preemption rates exceeding 42% and stalling training runs."
+    },
+    {
+      "event_type": "upgrade",
+      "occurred_at": "2026-05-14T10:30:00+00:00",
+      "description": "Dr. Elena Vance was promoted from Principal Scientist to VP of Computational Biology."
+    },
+    {
+      "event_type": "upgrade",
+      "occurred_at": "2026-05-14T10:30:00+00:00",
+      "description": "Marcus Chen transitioned from Backend Lead to Clinical Data Security Lead."
+    },
+    {
+      "event_type": "cancellation",
+      "occurred_at": "2026-05-14T10:30:00+00:00",
+      "description": "Legacy cluster staging-us-west-1 permanently decommissioned and staging runs moved to staging-eu-central-2."
+    },
+    {
+      "event_type": "constraint_stated",
+      "occurred_at": "2026-06-15T11:15:00+00:00",
+      "description": "The board reduced HelixNova Biotech's quarterly cloud GPU compute budget from $420,000 to $240,000 per quarter."
+    },
+    {
+      "event_type": "decision_made",
+      "occurred_at": "2026-07-08T14:10:00+00:00",
+      "description": "Reversed the Self-Hosted ClickHouse decision and standardized the primary assay analytics data warehouse on PostgreSQL 16 + Parquet Lakehouse following a GxP audit trail review."
+    },
+    {
+      "event_type": "milestone_completed",
+      "occurred_at": "2026-07-24T10:00:00+00:00",
+      "description": "Project Proteus restarted as Project Proteus-Lite focused on CDR-H3 loop optimization using 16 reserved H200 GPUs via academic co-op credits."
+    }
+  ]
+}

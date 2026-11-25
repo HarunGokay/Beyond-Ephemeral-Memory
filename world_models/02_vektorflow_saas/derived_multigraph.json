@@ -1,0 +1,532 @@
+{
+  "world_model_id": "02_vektorflow_saas",
+  "title": "VektorFlow SaaS \u2014 6-Month Product, Pricing & 3-Hop Dependency Cascade",
+  "stats": {
+    "total_dialogue_turns": 2000,
+    "total_sessions": 150,
+    "routine_sessions_salience_indexed_at_zero_llm_cost": 140,
+    "milestone_sessions_llm_extracted": 9,
+    "active_trees": 8,
+    "total_branches": 15,
+    "total_semantic_records": 21,
+    "total_events": 12,
+    "total_relationships": 5,
+    "total_decisions": 4,
+    "active_assumption_alerts": 0,
+    "total_predictions": 0,
+    "total_interventions": 0,
+    "total_temporal_patterns": 4,
+    "post_erasure_canary_hits": 0,
+    "conservative_retail_spend_usd": 0.05186
+  },
+  "forest": [
+    {
+      "tree_id": "7dc0ef38-cf3f-4125-a06d-df886a1dad2c",
+      "category": "relationships_roles",
+      "title": "VektorFlow SaaS Baseline",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "b9ad9c9a-f6db-43f1-95a8-31554a20445c",
+          "label": "Founding Designer",
+          "status": "archived",
+          "current_claim": "Priya Nair transitioned to Head of Product.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "576f9155-ae43-4fbb-b787-f668d76a6219",
+              "supersedes_record_id": null,
+              "valid_from": "2026-03-05T09:30:00+00:00",
+              "status": "active",
+              "state_version": 4,
+              "claim_text": "Priya Nair is the Founding Designer for VektorFlow."
+            },
+            {
+              "record_id": "17d7f6b7-1ee7-4442-99a6-0c1ef6033411",
+              "supersedes_record_id": "576f9155-ae43-4fbb-b787-f668d76a6219",
+              "valid_from": "2026-06-18T11:45:00+00:00",
+              "status": "superseded",
+              "state_version": 92,
+              "claim_text": "Priya Nair transitioned to Head of Product."
+            }
+          ]
+        },
+        {
+          "branch_id": "90dea97d-5542-41d7-a6f4-c1b6be739049",
+          "label": "Support Lead",
+          "status": "archived",
+          "current_claim": "Tomas Lindqvist moved to Enterprise Solutions Architect.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "1e1d4df6-6423-4194-a0f4-0cd4793ef3f6",
+              "supersedes_record_id": null,
+              "valid_from": "2026-03-05T09:30:00+00:00",
+              "status": "active",
+              "state_version": 4,
+              "claim_text": "Tomas Lindqvist is the Support Lead for VektorFlow."
+            },
+            {
+              "record_id": "ed433ec7-0868-4b12-83ff-ac3688b0874d",
+              "supersedes_record_id": "1e1d4df6-6423-4194-a0f4-0cd4793ef3f6",
+              "valid_from": "2026-06-18T11:45:00+00:00",
+              "status": "superseded",
+              "state_version": 92,
+              "claim_text": "Tomas Lindqvist moved to Enterprise Solutions Architect."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "c5f0fedc-1506-401b-9d58-c4e854496226",
+      "category": "resources_environment",
+      "title": "VektorFlow SaaS Baseline",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "e858f09b-94dd-4c2a-b5ed-e23284209bcb",
+          "label": "Production Cache",
+          "status": "active",
+          "current_claim": "The production cache for VektorFlow runs on Valkey 8 after retiring Redis 6.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "5a208829-1e32-4783-a918-8de9b3937d16",
+              "supersedes_record_id": null,
+              "valid_from": "2026-03-05T09:30:00+00:00",
+              "status": "active",
+              "state_version": 4,
+              "claim_text": "The production cache for VektorFlow runs on Redis 6."
+            },
+            {
+              "record_id": "bb6b3cde-99a2-445f-a0b3-fcb1a66cce1f",
+              "supersedes_record_id": "5a208829-1e32-4783-a918-8de9b3937d16",
+              "valid_from": "2026-06-18T11:45:00+00:00",
+              "status": "active",
+              "state_version": 92,
+              "claim_text": "The production cache for VektorFlow runs on Valkey 8 after retiring Redis 6."
+            }
+          ]
+        },
+        {
+          "branch_id": "b2cf4d95-bba2-47b2-8ca1-8bdac8158b98",
+          "label": "Stripe Connect Instant Payouts SLA",
+          "status": "active",
+          "current_claim": "Stripe deprecated the sub-30-minute cross-border Instant Payouts SLA, and settlement now takes T+2 business days for EU accounts.",
+          "version_count": 3,
+          "supersession_lineage": [
+            {
+              "record_id": "c1043b3b-1c45-4337-9605-9cc8719230fb",
+              "supersedes_record_id": null,
+              "valid_from": "2026-03-19T11:00:00+00:00",
+              "status": "active",
+              "state_version": 16,
+              "claim_text": "Stripe Connect Instant Payouts SLA guarantees sub-30-minute settlement across all North American and European connected accounts."
+            },
+            {
+              "record_id": "e96434c3-491f-40cb-9a45-1a10b5f018d3",
+              "supersedes_record_id": "c1043b3b-1c45-4337-9605-9cc8719230fb",
+              "valid_from": "2026-04-02T14:00:00+00:00",
+              "status": "active",
+              "state_version": 28,
+              "claim_text": "The Automated Marketplace Split-Settlement Engine depends directly on the Stripe Connect Instant Payouts SLA remaining under 30 minutes without manual treasury prefunding."
+            },
+            {
+              "record_id": "8c0cac1f-4114-4f69-9096-0b58e50caf5f",
+              "supersedes_record_id": "e96434c3-491f-40cb-9a45-1a10b5f018d3",
+              "valid_from": "2026-07-15T13:20:00+00:00",
+              "status": "active",
+              "state_version": 114,
+              "claim_text": "Stripe deprecated the sub-30-minute cross-border Instant Payouts SLA, and settlement now takes T+2 business days for EU accounts."
+            }
+          ]
+        },
+        {
+          "branch_id": "0354cfd2-f320-4f96-badc-5aee48f8b427",
+          "label": "Paid Acquisition Budget",
+          "status": "active",
+          "current_claim": "The paid acquisition budget for VektorFlow was cut from $65,000/month to $18,000/month.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "18f3a116-5b41-4994-934b-e4f8dbf3fe82",
+              "supersedes_record_id": null,
+              "valid_from": "2026-03-05T09:30:00+00:00",
+              "status": "active",
+              "state_version": 4,
+              "claim_text": "The paid acquisition budget for VektorFlow is $65,000 per month."
+            },
+            {
+              "record_id": "137ad3c3-0d2d-4095-8e8b-5edfdb8a8ce0",
+              "supersedes_record_id": "18f3a116-5b41-4994-934b-e4f8dbf3fe82",
+              "valid_from": "2026-07-15T13:20:00+00:00",
+              "status": "active",
+              "state_version": 114,
+              "claim_text": "The paid acquisition budget for VektorFlow was cut from $65,000/month to $18,000/month."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "4297e078-80ea-4250-a9c3-9afcd33367b4",
+      "category": "active_projects_commitments",
+      "title": "VektorFlow SaaS Baseline",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "78d72535-3765-4ec0-bc6c-4fdbecd65cd3",
+          "label": "Q3 Guaranteed Same-Day Creator Payout Tier",
+          "status": "active",
+          "current_claim": "Our Q3 Guaranteed Same-Day Creator Payout Tier depends directly on the Automated Marketplace Split-Settlement Engine operating without manual prefunding.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "7c883aac-6e85-40f8-9c20-46b4b9c074e7",
+              "supersedes_record_id": null,
+              "valid_from": "2026-04-14T16:00:00+00:00",
+              "status": "active",
+              "state_version": 38,
+              "claim_text": "Our Q3 Guaranteed Same-Day Creator Payout Tier depends directly on the Automated Marketplace Split-Settlement Engine operating without manual prefunding."
+            }
+          ]
+        },
+        {
+          "branch_id": "ab766e01-4922-40aa-9b18-21f2047bd1ac",
+          "label": "Pricing Model",
+          "status": "active",
+          "current_claim": "The pricing model for VektorFlow is a Hybrid Platform Pricing model at $299/month base + $0.002/event overage.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "d8d647c1-6c46-48e1-8bbf-af75518ce194",
+              "supersedes_record_id": null,
+              "valid_from": "2026-03-05T09:30:00+00:00",
+              "status": "active",
+              "state_version": 4,
+              "claim_text": "The pricing model for VektorFlow is seat-based at $49 per seat."
+            },
+            {
+              "record_id": "22e51eb0-fc23-46d7-bacb-85bfedaa6ffd",
+              "supersedes_record_id": null,
+              "valid_from": "2026-08-06T10:00:00+00:00",
+              "status": "active",
+              "state_version": 132,
+              "claim_text": "The pricing model for VektorFlow is a Hybrid Platform Pricing model at $299/month base + $0.002/event overage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "e01e6582-a08b-4d4b-9fdb-355775075d51",
+      "category": "assumptions_mental_models",
+      "title": "Operating Assumptions",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "c25af902-79e7-4174-947c-4a8a3a111f53",
+          "label": "Working Assumption",
+          "status": "active",
+          "current_claim": "Automated Marketplace Split-Settlement Engine can operate without manual prefunding",
+          "version_count": 0,
+          "supersession_lineage": []
+        },
+        {
+          "branch_id": "4693230f-9914-43e5-8c63-4219ea5f68f4",
+          "label": "Working Assumption",
+          "status": "active",
+          "current_claim": "Hybrid Platform Pricing will provide more predictable bills than pure usage pricing.",
+          "version_count": 0,
+          "supersession_lineage": []
+        }
+      ]
+    },
+    {
+      "tree_id": "69524151-4243-4ae2-a0c2-5f3fb3f70089",
+      "category": "active_projects_commitments",
+      "title": "Project Mercury",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "ce82236c-434e-4b0d-8a6f-bbaaaddf5d1c",
+          "label": "Project Mercury",
+          "status": "archived",
+          "current_claim": "Project Mercury (self-serve iOS/Android mobile SDK) was cancelled to focus engineering 100% on SOC-2 Type II.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "56dbd060-d430-4715-87e8-a201549adc7d",
+              "supersedes_record_id": null,
+              "valid_from": "2026-04-28T10:30:00+00:00",
+              "status": "archived",
+              "state_version": 50,
+              "claim_text": "Project Mercury (self-serve iOS/Android mobile SDK) was cancelled to focus engineering 100% on SOC-2 Type II."
+            }
+          ]
+        },
+        {
+          "branch_id": "c2026e96-d602-4034-9c89-2d24712cc58c",
+          "label": "Flagship Retail Pilot",
+          "status": "active",
+          "current_claim": "Project Mercury has been restarted for the flagship retail pilot.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "238ac754-3009-4b86-a2b4-e9b847c1a282",
+              "supersedes_record_id": null,
+              "valid_from": "2026-08-06T10:00:00+00:00",
+              "status": "active",
+              "state_version": 132,
+              "claim_text": "Project Mercury has been restarted for the flagship retail pilot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "159fb0a1-c3e9-4252-b241-c5157bc3a70d",
+      "category": "active_projects_commitments",
+      "title": "SOC-2 Type II",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "88ec1c14-4b6f-415e-a7b2-dc3151432116",
+          "label": "SOC-2 Type II Focus",
+          "status": "active",
+          "current_claim": "Engineering is focused 100% on SOC-2 Type II following the cancellation of Project Mercury.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "4752ac4a-206a-4d10-851e-b6ff4b671013",
+              "supersedes_record_id": null,
+              "valid_from": "2026-04-28T10:30:00+00:00",
+              "status": "active",
+              "state_version": 50,
+              "claim_text": "Engineering is focused 100% on SOC-2 Type II following the cancellation of Project Mercury."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "bc479f01-247e-40ad-8ec3-630941d59c49",
+      "category": "assumptions_mental_models",
+      "title": "Mid-Market Customer Churn",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "f8505727-9179-4f98-8693-a22ae12b3491",
+          "label": "SAML SSO Working Hypothesis",
+          "status": "archived",
+          "current_claim": "Exit-interview audit contradicted our SAML SSO churn hypothesis: 9 of 11 churned mid-market accounts left because webhook retry tail latency exceeded 12 seconds, not because of SAML SSO.",
+          "version_count": 2,
+          "supersession_lineage": [
+            {
+              "record_id": "593a309d-44c9-45de-bace-a285b89494f2",
+              "supersedes_record_id": null,
+              "valid_from": "2026-04-28T10:30:00+00:00",
+              "status": "active",
+              "state_version": 50,
+              "claim_text": "Mid-market customer churn is caused by missing SAML SSO."
+            },
+            {
+              "record_id": "db2d84cd-f1a5-46c2-9d9f-9e2539173a63",
+              "supersedes_record_id": "593a309d-44c9-45de-bace-a285b89494f2",
+              "valid_from": "2026-06-18T11:45:00+00:00",
+              "status": "contradicted",
+              "state_version": 92,
+              "claim_text": "Exit-interview audit contradicted our SAML SSO churn hypothesis: 9 of 11 churned mid-market accounts left because webhook retry tail latency exceeded 12 seconds, not because of SAML SSO."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "dbcc71a0-22b0-4ce9-a747-453e4b06c656",
+      "category": "relationships_roles",
+      "title": "VektorFlow Team Roles",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "eea7b559-1a00-4006-9791-5a0358332e58",
+          "label": "Head of Product",
+          "status": "active",
+          "current_claim": "Priya Nair is the Head of Product for VektorFlow.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "080a8100-d995-4e56-ae8c-f746b9c6f7d9",
+              "supersedes_record_id": null,
+              "valid_from": "2026-06-18T11:45:00+00:00",
+              "status": "active",
+              "state_version": 92,
+              "claim_text": "Priya Nair is the Head of Product for VektorFlow."
+            }
+          ]
+        },
+        {
+          "branch_id": "6c64dc27-6b33-460c-8afe-7ba805f5d20d",
+          "label": "Enterprise Solutions Architect",
+          "status": "active",
+          "current_claim": "Tomas Lindqvist is the Enterprise Solutions Architect for VektorFlow.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "f35ceed2-b585-48d3-a038-19ce81d1c6d7",
+              "supersedes_record_id": null,
+              "valid_from": "2026-06-18T11:45:00+00:00",
+              "status": "active",
+              "state_version": 92,
+              "claim_text": "Tomas Lindqvist is the Enterprise Solutions Architect for VektorFlow."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "151431ab-0989-4b40-a166-fd6d268f68fe",
+      "source_label": "Project Mercury",
+      "relationship_type": "affects",
+      "target_label": "SOC-2 Type II",
+      "description": "Cancellation of Project Mercury allowed engineering focus to shift 100% to SOC-2 Type II",
+      "status": "active"
+    },
+    {
+      "id": "b5b46774-f1d4-4c4a-81b5-87b4cd3a2b4a",
+      "source_label": "Production Cache",
+      "relationship_type": "supersedes",
+      "target_label": "Production Cache",
+      "description": "Valkey 8 replaces Redis 6 as the production cache technology.",
+      "status": "active"
+    },
+    {
+      "id": "ef401367-99bf-48fd-9e02-3662e87f6cfb",
+      "source_label": "Stripe Connect Instant Payouts SLA",
+      "relationship_type": "affects",
+      "target_label": "Q3 Guaranteed Same-Day Creator Payout Tier",
+      "description": "Changes to Stripe Instant Payouts SLA settling to T+2 business days affect the Q3 Guaranteed Same-Day Creator Payout Tier dependency.",
+      "status": "active"
+    },
+    {
+      "id": "128e6d7d-277d-4440-a8af-277e55847bb7",
+      "source_label": "Automated Marketplace Split-Settlement Engine",
+      "relationship_type": "depends_on",
+      "target_label": "Stripe Connect Instant Payouts SLA",
+      "description": "Automated Marketplace Split-Settlement Engine depends directly on the Stripe Connect Instant Payouts SLA remaining under 30 minutes without manual treasury prefunding.",
+      "status": "active"
+    },
+    {
+      "id": "5a450e65-5a5f-4950-8feb-08317ec628ea",
+      "source_label": "Q3 Guaranteed Same-Day Creator Payout Tier",
+      "relationship_type": "depends_on",
+      "target_label": "Automated Marketplace Split-Settlement Engine",
+      "description": "Q3 Guaranteed Same-Day Creator Payout Tier depends directly on the Automated Marketplace Split-Settlement Engine operating without manual prefunding.",
+      "status": "active"
+    }
+  ],
+  "decisions": [
+    {
+      "decision_id": "5c81a3be-d914-4d88-8984-164d1a0cacc5",
+      "title": "Q3 Guaranteed Same-Day Creator Payout Tier",
+      "selected_option": "Dependent on Automated Marketplace Split-Settlement Engine operating without manual prefunding",
+      "status": "decided",
+      "linked_assumption_branch_ids": [
+        "c25af902-79e7-4174-947c-4a8a3a111f53"
+      ]
+    },
+    {
+      "decision_id": "e6278917-64f9-4718-a56b-e00ba8861c11",
+      "title": "Cancel Project Mercury",
+      "selected_option": "Cancel Project Mercury (self-serve iOS/Android mobile SDK)",
+      "status": "decided",
+      "linked_assumption_branch_ids": [
+        "88ec1c14-4b6f-415e-a7b2-dc3151432116"
+      ]
+    },
+    {
+      "decision_id": "40a0d920-2c54-4258-8a63-7929f3a3e32b",
+      "title": "Paid Acquisition Budget Reduction",
+      "selected_option": "Cut paid acquisition spend from $65,000/month to $18,000/month",
+      "status": "decided",
+      "linked_assumption_branch_ids": []
+    },
+    {
+      "decision_id": "b0027d5e-e9a8-4286-8ccb-a14944faee69",
+      "title": "Hybrid Platform Pricing Model Adoption",
+      "selected_option": "Hybrid Platform Pricing model ($299/month base + $0.002/event overage)",
+      "status": "decided",
+      "linked_assumption_branch_ids": [
+        "4693230f-9914-43e5-8c63-4219ea5f68f4"
+      ]
+    }
+  ],
+  "assumption_alerts": [],
+  "predictions": [],
+  "interventions": [],
+  "event_ledger_sample": [
+    {
+      "event_type": "constraint_stated",
+      "occurred_at": "2026-03-19T11:00:00+00:00",
+      "description": "Established Stripe Connect Instant Payouts SLA guaranteeing sub-30-minute settlement across North American and European connected accounts."
+    },
+    {
+      "event_type": "constraint_stated",
+      "occurred_at": "2026-04-02T14:00:00+00:00",
+      "description": "User stated that the Automated Marketplace Split-Settlement Engine depends on the Stripe Connect Instant Payouts SLA remaining under 30 minutes without manual treasury prefunding."
+    },
+    {
+      "event_type": "constraint_stated",
+      "occurred_at": "2026-04-14T16:00:00+00:00",
+      "description": "Established that the Q3 Guaranteed Same-Day Creator Payout Tier depends directly on the Automated Marketplace Split-Settlement Engine operating without manual prefunding."
+    },
+    {
+      "event_type": "cancellation",
+      "occurred_at": "2026-04-28T10:30:00+00:00",
+      "description": "Cancelled Project Mercury (self-serve iOS/Android mobile SDK) to focus engineering 100% on SOC-2 Type II"
+    },
+    {
+      "event_type": "contradiction",
+      "occurred_at": "2026-06-18T00:00:00+00:00",
+      "description": "Exit-interview audit contradicted the SAML SSO churn hypothesis, revealing 9 of 11 churned mid-market accounts left due to webhook retry tail latency exceeding 12 seconds."
+    },
+    {
+      "event_type": "role_change",
+      "occurred_at": "2026-06-18T00:00:00+00:00",
+      "description": "Priya Nair transitioned from Founding Designer to Head of Product."
+    },
+    {
+      "event_type": "role_change",
+      "occurred_at": "2026-06-18T00:00:00+00:00",
+      "description": "Tomas Lindqvist transitioned from Support Lead to Enterprise Solutions Architect."
+    },
+    {
+      "event_type": "upgrade",
+      "occurred_at": "2026-06-18T00:00:00+00:00",
+      "description": "Retired obsolete Redis 6 in favor of Valkey 8 for the production cache."
+    },
+    {
+      "event_type": "upgrade",
+      "occurred_at": "2026-07-15T13:20:00+00:00",
+      "description": "Stripe deprecated the sub-30-minute cross-border Instant Payouts SLA, setting settlement time to T+2 business days for EU accounts."
+    },
+    {
+      "event_type": "decision_made",
+      "occurred_at": "2026-07-15T13:20:00+00:00",
+      "description": "Cut paid acquisition spend from $65,000/month to $18,000/month."
+    },
+    {
+      "event_type": "decision_made",
+      "occurred_at": "2026-08-06T10:00:00+00:00",
+      "description": "Switched from pure usage pricing to Hybrid Platform Pricing model ($299/month base + $0.002/event overage) due to unpredictable bills."
+    },
+    {
+      "event_type": "milestone_completed",
+      "occurred_at": "2026-08-06T10:00:00+00:00",
+      "description": "Restarted Project Mercury for the flagship retail pilot."
+    }
+  ]
+}

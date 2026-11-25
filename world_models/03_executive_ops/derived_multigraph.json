@@ -1,0 +1,231 @@
+{
+  "world_model_id": "03_executive_ops",
+  "title": "Principal Founder \u2014 12-Month Cross-Domain Constraints & Operations",
+  "stats": {
+    "total_dialogue_turns": 2000,
+    "total_sessions": 146,
+    "routine_sessions_salience_indexed_at_zero_llm_cost": 140,
+    "milestone_sessions_llm_extracted": 5,
+    "active_trees": 6,
+    "total_branches": 6,
+    "total_semantic_records": 7,
+    "total_events": 7,
+    "total_relationships": 0,
+    "total_decisions": 1,
+    "active_assumption_alerts": 0,
+    "total_predictions": 0,
+    "total_interventions": 0,
+    "total_temporal_patterns": 1,
+    "post_erasure_canary_hits": 0,
+    "conservative_retail_spend_usd": 0.02691
+  },
+  "forest": [
+    {
+      "tree_id": "6c364e30-cc6b-46bd-a868-486cffb9e813",
+      "category": "health_wellbeing",
+      "title": "Medical Safety and Dietary Constraints",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "54c884d3-a255-46ff-af2a-18edd9261181",
+          "label": "Severe Tree-Nut and Cashew Allergy",
+          "status": "active",
+          "current_claim": "Severe anaphylactic cashew and tree-nut allergy requiring strict prohibition of tree nuts, cashew sauces, pestos, or cross-contaminated nut desserts at any meal or catered event.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "a2c3f494-2a58-49fa-8950-696b1335a98f",
+              "supersedes_record_id": null,
+              "valid_from": "2025-10-10T09:00:00+00:00",
+              "status": "active",
+              "state_version": 4,
+              "claim_text": "Severe anaphylactic cashew and tree-nut allergy requiring strict prohibition of tree nuts, cashew sauces, pestos, or cross-contaminated nut desserts at any meal or catered event."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "a94624eb-396c-499a-94b8-db1e62d8a111",
+      "category": "identity_background",
+      "title": "Location and Background",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "37462c94-99af-4d65-82a9-01ee99346c7d",
+          "label": "Primary Residence and Home Office",
+          "status": "active",
+          "current_claim": "Primary residence and home office relocated permanently from Denver, Colorado to Boston, Massachusetts.",
+          "version_count": 3,
+          "supersession_lineage": [
+            {
+              "record_id": "e065ae54-41a7-4163-9339-96baba3a9ac1",
+              "supersedes_record_id": null,
+              "valid_from": "2025-10-10T09:00:00+00:00",
+              "status": "active",
+              "state_version": 4,
+              "claim_text": "Primary residence and home office is located in Austin, Texas."
+            },
+            {
+              "record_id": "359134bb-7fd7-4bb8-80eb-f832f633b565",
+              "supersedes_record_id": "e065ae54-41a7-4163-9339-96baba3a9ac1",
+              "valid_from": "2026-02-11T14:00:00+00:00",
+              "status": "active",
+              "state_version": 55,
+              "claim_text": "Primary residence and home office relocated from Austin, Texas to Denver, Colorado."
+            },
+            {
+              "record_id": "8bea3fdb-21a0-40be-8957-99e229d4c920",
+              "supersedes_record_id": "359134bb-7fd7-4bb8-80eb-f832f633b565",
+              "valid_from": "2026-07-19T10:45:00+00:00",
+              "status": "active",
+              "state_version": 120,
+              "claim_text": "Primary residence and home office relocated permanently from Denver, Colorado to Boston, Massachusetts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "bf30f916-72c6-4736-87f6-7c68d5e0859d",
+      "category": "health_wellbeing",
+      "title": "Orthopedic Meniscus Rehabilitation and Activity Constraints",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "265a35ea-8476-45fe-b6b2-8a3a4b0e93a7",
+          "label": "Right-Knee Meniscus Repair Activity Constraints",
+          "status": "active",
+          "current_claim": "Following right-knee medial meniscus repair, surgeon strictly prohibits steep downhill trail descents, road running, or plyometric jumps, while flat cycling and swimming are approved.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "c79d0199-2095-48b4-8fd3-508eed2055b4",
+              "supersedes_record_id": null,
+              "valid_from": "2025-12-04T11:30:00+00:00",
+              "status": "active",
+              "state_version": 27,
+              "claim_text": "Following right-knee medial meniscus repair, surgeon strictly prohibits steep downhill trail descents, road running, or plyometric jumps, while flat cycling and swimming are approved."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "152daf88-1041-4d7e-8244-9e6819c7fa96",
+      "category": "challenges_constraints",
+      "title": "Venture Credit Facility Debt Covenant and Headcount Constraints",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "cdc2ae96-fb43-4a69-a445-964703152ffa",
+          "label": "Board Debt-Covenant Non-Revenue G&A Headcount Freeze",
+          "status": "active",
+          "current_claim": "Venture credit facility debt covenant strictly forbids opening any non-revenue G&A or administrative headcount requisitions until ARR crosses $6.0M, with current ARR at $4.4M.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "c9c79d1b-c5ff-4ffc-9310-90a5252d68fa",
+              "supersedes_record_id": null,
+              "valid_from": "2026-02-11T14:00:00+00:00",
+              "status": "active",
+              "state_version": 55,
+              "claim_text": "Venture credit facility debt covenant strictly forbids opening any non-revenue G&A or administrative headcount requisitions until ARR crosses $6.0M, with current ARR at $4.4M."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "8ba32bb4-69bf-48be-ba5b-3647e4a5dbac",
+      "category": "active_projects_commitments",
+      "title": "The Epistemic Stack Technical Book Manuscript",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "fb918cd9-9a6f-483a-8dd1-28d4cfa84948",
+          "label": "Technical Book Manuscript 'The Epistemic Stack'",
+          "status": "active",
+          "current_claim": "Technical book manuscript 'The Epistemic Stack' was officially restarted with MIT Press.",
+          "version_count": 1,
+          "supersession_lineage": [
+            {
+              "record_id": "5786edd8-14c5-4b0c-94e6-fbdb04440f7a",
+              "supersedes_record_id": null,
+              "valid_from": "2026-07-19T10:45:00+00:00",
+              "status": "active",
+              "state_version": 120,
+              "claim_text": "Technical book manuscript 'The Epistemic Stack' was officially restarted with MIT Press."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tree_id": "9677b345-821e-461d-af1d-ea19db5f188d",
+      "category": "assumptions_mental_models",
+      "title": "Operating Assumptions",
+      "status": "active",
+      "branches": [
+        {
+          "branch_id": "3fd974f3-7281-473f-950f-e70f23b9015a",
+          "label": "Working Assumption",
+          "status": "archived",
+          "current_claim": "Series-A fundraising load requires full attention over writing the book manuscript [Invalidated: Series-A fundraising load requires full attention over writing the book manuscript]",
+          "version_count": 0,
+          "supersession_lineage": []
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "decisions": [
+    {
+      "decision_id": "3c741fb5-137c-4bd1-a479-4b0612d0ada1",
+      "title": "Restart 'The Epistemic Stack' Book Manuscript with MIT Press",
+      "selected_option": "Officially restarted 'The Epistemic Stack' book manuscript with MIT Press",
+      "status": "decided",
+      "linked_assumption_branch_ids": []
+    }
+  ],
+  "assumption_alerts": [],
+  "predictions": [],
+  "interventions": [],
+  "event_ledger_sample": [
+    {
+      "event_type": "constraint_stated",
+      "occurred_at": "2025-10-10T00:00:00+00:00",
+      "description": "User stated a critical medical safety rule regarding a severe anaphylactic cashew and tree-nut allergy."
+    },
+    {
+      "event_type": "constraint_stated",
+      "occurred_at": "2025-10-10T00:00:00+00:00",
+      "description": "User established primary residence and home office location in Austin, Texas."
+    },
+    {
+      "event_type": "constraint_stated",
+      "occurred_at": "2025-12-04T11:30:00+00:00",
+      "description": "User stated surgeon-imposed physical therapy constraints after right-knee medial meniscus repair prohibiting steep downhill trail descents, road running, and plyometric jumps, and permitting flat cycling and swimming."
+    },
+    {
+      "event_type": "constraint_stated",
+      "occurred_at": "2026-02-11T14:00:00+00:00",
+      "description": "Venture credit facility debt covenant enacted restricting non-revenue G&A headcount requisitions until ARR reaches $6.0M."
+    },
+    {
+      "event_type": "milestone_completed",
+      "occurred_at": "2026-02-11T14:00:00+00:00",
+      "description": "Relocated home office from Austin, Texas to Denver, Colorado."
+    },
+    {
+      "event_type": "relocation",
+      "occurred_at": "2026-07-19T00:00:00+00:00",
+      "description": "User permanently moved from Denver, Colorado to Boston, Massachusetts."
+    },
+    {
+      "event_type": "project_status_change",
+      "occurred_at": "2026-07-19T00:00:00+00:00",
+      "description": "Officially restarted 'The Epistemic Stack' book manuscript with MIT Press."
+    }
+  ]
+}

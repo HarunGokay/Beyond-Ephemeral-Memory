@@ -1,0 +1,15 @@
+{
+  "world_model_id": "03_executive_ops",
+  "temporal_patterns": [
+    {
+      "pattern_id": "723380e5-9558-4de2-b0d3-a4872a94f49d",
+      "pattern_type": "changing_priorities",
+      "status": "supported",
+      "causal_status": "unknown",
+      "confidence": 0.9,
+      "supporting_observations_count": 3,
+      "description": "The user's geographical location has undergone repeated shifts over time, moving from Austin, Texas to Denver, Colorado, and subsequently to Boston, Massachusetts."
+    }
+  ],
+  "generated_inquiries": []
+}
