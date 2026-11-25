@@ -19,8 +19,6 @@ This repo contains the paper PDF, PostgreSQL 16 schema and Row-Level Security (R
 kora-epistemic-artifacts/
 ├── assets/
 │   └── architecture.png                   # System architecture and epistemic promotion ladder
-├── paper/
-│   └── beyond_memory_kora.pdf             # Paper PDF
 ├── schema/
 │   └── postgres_epistemic_schema.sql      # PostgreSQL 16 DDL, CHECK constraints, and RLS policies
 ├── world_models/
